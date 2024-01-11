@@ -92,7 +92,7 @@ function MyApp({ Component, pageProps }: AppProps) {
         </Head>
         <NavBar />
         <Component {...pageProps} />
-        <Footer />
+
       </ThirdwebProvider>
     </ChakraProvider>
   );
